@@ -5,12 +5,9 @@
     <title></title>
     <meta anme="twitter"content="" charset="utf-8">
   </head>
-  <body background="">
- <pre>
-                        <h1>正修科技大學資工<h1>
- <pre>
- <pre>
-                                曾國益
+  <body background=""> 
+  <pre>                 <h1>正修科技大學資工<h1><pre>
+                        <pre>   曾國益
                                90418124
  <pre>
     <pre>
