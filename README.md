@@ -7,7 +7,7 @@
   </head>
   <body background=""> 
   <pre>                 
-                                                         正修科技大學資工<pre>
+                                                   正修科技大學資工<pre>
                         <pre>   
                                                               曾國益
                                                              90418124
