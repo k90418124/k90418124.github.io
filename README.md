@@ -6,10 +6,13 @@
     <meta anme="twitter"content="" charset="utf-8">
   </head>
   <body background="">
-  <h1>正修科技大學資工<h1>
-<pre>
-      曾國益
-      90418124<pre>
+ <pre>
+                        <h1>正修科技大學資工<h1>
+ <pre>
+ <pre>
+                                曾國益
+                               90418124
+ <pre>
     <pre>
       123
       456
