@@ -7,14 +7,16 @@
     body{
       text-align: center;
       background-color: #00aaee;
-      color:#ffffff;
+      color:#ffffff
     }  
     </style>
   </head>
   <body>
   <h1>正修科技大學</h1>
   <h2>資工二甲<h2>
-    <h3>曾國益<h3>
-      <h3>90418124<h3>
+<hr width="1000">
+    <h3>曾國益</br>
+      90418124<h3>
+        <img src="pic3.jpg" alt="">
   </body>
 </html>
