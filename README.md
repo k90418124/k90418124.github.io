@@ -8,7 +8,7 @@
       text-align: center;
       background-color: #00aaee;
       color:red;
-      background-image: image();
+      background-image: image(pic3.jpg);
     }  
     </style>
   </head>
