@@ -7,9 +7,9 @@
   </head>
   <body background=""> 
   <pre>                 
-                       <h1>正修科技大學資工<h1><pre>
+                           正修科技大學資工<pre>
                         <pre>   
-                            <h1>曾國益<h1>
+                               曾國益
                               90418124
  <pre>
     <pre>
