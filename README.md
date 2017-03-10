@@ -7,8 +7,8 @@
     body{
       text-align: center;
       background-color: #00aaee;
-      color:red;
-      background-image:url(pic3.jpg);
+      color:#fffff;
+      background-image: url(pic3.jpg);
     }  
     </style>
   </head>
