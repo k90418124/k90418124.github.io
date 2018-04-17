@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>曾國益</title>
+    <style media="screen">
+    body{
+      text-align: center;
+      background-color: #00aaee;
+      color:#ffffff
+    }
+    ul.breadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {color:#ffffff;}
+    </style>
+  </head>
+  <script>
+  var weekday=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+  var dttoday = new Date();
+  // 取得系統日期
+  var output = dttoday.getDate() + "/";
+  output += (dttoday.getMonth() + 1) + "/";
+  output += dttoday.getFullYear() + "<br/>";
+  document.write("系統日期: " + output);
+  </script>
+  <body background=456456.jpg onload="startClock()" onunload="stopClock()">
+<div id="show"></div>
+<ul class="breadcrumb">
+  <li><a href="index.hlml">自我介紹 </a></li>
+  <li><a href="Paging1.html">圖片集 </a></li>
+</ul>
+<hr width="500">
+<h1>正修科技大學</h1>
+<h2>資工科<h2>
+    <h3>曾國益</br>
+      90418124<h3>
+    <h3>興趣:睡覺<h3>
+
+<script>
+    var curIndex=0;
+    var imgArray=new Array();
+    var pics=4;
+    for(i=0;i<pics;i++)
+    {
+        imgArray[i]=new Image();
+        if(i<10)
+        imgArray[i].src="pic0"+i+".jpg";
+        else
+        imgArray[i].src="pic"+i+".jpg";
+    }
+    function nextImage() {
+        curIndex++;
+        curIndex=curIndex % pics;
+        return(imgArray[curIndex].src);
+    }
+    function randomImage() {
+        curIndex=Math.floor(Math.random()*imgArray.length);
+        return(imgArray[curIndex].src);
+    }
+
+    var timer = null;
+// 顯示數字圖片
+function displayClock(num) {
+  var dig = parseInt(num/10);
+  var timetag="<img src='images\\" + dig + ".gif'>";
+  dig = num%10;
+  timetag +="<img src='images\\" + dig + ".gif'>";
+  return timetag;
+}
+// 停止計時
+function stopClock() {
+   clearTimeout(timer);
+}
+// 開始計時
+function startClock() {
+   var time = new Date();
+   // 取得時間
+   var hours = displayClock(time.getHours()) + ":";
+   var minutes = displayClock(time.getMinutes()) + ":";
+   var seconds = displayClock(time.getSeconds());
+   // 顯示時間
+   show.innerHTML = hours + minutes + seconds;
+   timer = setTimeout("startClock()",1000);
+}
+    </script>
+  </body>
+</html>
